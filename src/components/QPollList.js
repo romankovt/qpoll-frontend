@@ -16,7 +16,7 @@ export default function QPollList() {
 
   function deleteQPoll(qPoll) {
     alert("Are you sure?");
-    fetch(`http://localhost:4200/v1/polls/${qPoll.id}3`, { method: "DELETE" })
+    fetch(`http://localhost:4200/v1/polls/${qPoll.id}`, { method: "DELETE" })
       .then((response) => {
         console.log(response.json());
         getQpollList();

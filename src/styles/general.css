@@ -129,6 +129,14 @@ a:active { text-decoration: none; }
   margin-bottom: 1rem;
 }
 
+.q-poll-options {
+  margin: 0 0 0 1rem;
+}
+
+.qpoll-remove-question {
+  float: right;
+}
+
 /* .pollList {
   display: flex;
   flex-wrap: wrap;

@@ -11,6 +11,7 @@ export default function QPollCard({ qPoll, deleteQPoll }) {
         <button onClick={() => deleteQPoll(qPoll)}>❌</button>
       </div>
       <p>{qPoll.description}</p>
+      <p>Questions: {qPoll.questions.length}</p>
     </div>
   );
 }
