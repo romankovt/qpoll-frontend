@@ -19,7 +19,8 @@
     "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
     "react/prop-types": 0,
     "indent": ["error", 2],
-    "linebreak-style": 1
+    "linebreak-style": 1,
+    "no-unused-vars": ["error", { "varsIgnorePattern": "^_" }]
   },
   "env": {
     "es6": true,
